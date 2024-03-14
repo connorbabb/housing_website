@@ -1,5 +1,21 @@
-.headerButtons{
+.headerImage-01{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    background-color: ;
+    width: 50%;
+    border: 2px solid black;
+}
+.mainContent{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+.Criteria{
+    background-color: blue;
+}
+.ImageSection{
+    background-color: red;
+}
+.headerDescription {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 2px solid black;
 }
